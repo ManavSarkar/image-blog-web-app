@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Imagiar Manav</title>
+
+  <!-- update the version number as needed -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-storage.js"></script>
+
+  <link rel="stylesheet"  href="main.css">
+</head>
+<body>
+  <div id="container">
+
+    <div id="progress-container">
+      <progress max="100"></progress>
+    </div>
+    
+    
+    <div class="buttons-grid">
+      <div>
+        <input type="file" id="upload-button">
+      </div>
+    </div>
+    <div>
+      <button id="clear" class="blue-button">Remove all photos</button>
+    </div>
+    <div id="images"></div>
+
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
